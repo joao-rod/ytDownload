@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock css %}
+
+{% block title %} NTE - ytDownload {% endblock title %}
+
+{% block content %}
+<form  id="form" action="/result" method="POST">
+  <section>
+    <label for="link">Digite aqui o link:</label>
+
+    <div class="btn-input">
+      <input type="text" name="link" id="link" placeholder="Cole o link aqui..." required>
+      <button>Buscar</button>
+    </div>
+  </section>
+</form>
+{% endblock %}

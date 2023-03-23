@@ -1,0 +1,57 @@
+#form section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #282a36;
+  font-size: 21px;
+
+  font-weight: 500;
+
+  margin-bottom: 1%;
+}
+
+.btn-input {
+  display: flex;
+  justify-content: space-between;
+
+  height: 2.5rem;
+  width: 100%;
+}
+
+.btn-input input {
+  width: 90%;
+  padding-left: 1%;
+
+  border-radius: 5px;
+  border: 1px solid #dad8d8;
+  font-size: 18px;
+}
+
+.btn-input input::placeholder {
+  font-style: italic;
+}
+
+.btn-input input:focus {
+  border: 1px solid #5566c299;
+}
+
+.btn-input input.error{
+  border: 1px solid red;
+}
+
+.btn-input input.error::placeholder {
+	color: red;
+}
+
+.btn-input button {
+  width: 9%;
+
+  border-radius: 5px;
+  border: 1px solid #dad8d8;
+  background-color: #0000ff99;
+  color: #f8f8f2;
+
+  cursor: pointer;
+}
