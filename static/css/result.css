@@ -1,0 +1,88 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #282a36;
+
+  gap: 2%;
+}
+
+.info-details {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 3%;
+
+  gap: 2%;
+}
+
+.img-box {
+  height: 30vh;
+  width: 40%;
+
+  border-radius: 10px;
+  border: 1px solid #dad8d8;
+  box-shadow: 0 0 10px #00000090;
+}
+
+.img-box img {
+  height: 30vh;
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.info-label {
+  color: #282a36;
+}
+
+.info-label i {
+  color: #7c7e8b;
+  font-size: 0.8em;
+}
+
+.info-box div {
+  margin-bottom: 1%;
+}
+
+.info-box div p span {
+  font-style: normal;
+  color: #7c7e8b;
+}
+
+.download-box {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3%;
+  /* border: 1px solid red; */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  
+  /* border: 1px solid green; */
+}
+
+.download-box .btn button {
+  height: 2.5rem;
+  width: 65%;
+
+  color: #f8f8f2;
+  border-radius: 5px;
+  border: 1px solid #dad8d8;
+  box-shadow: 2px 2px 2px #00000033;
+
+  cursor: pointer;
+}
+
+#video {
+  background-color: #0000ff99;
+}
+
+#audio {
+  background-color: #00864e99;
+}
